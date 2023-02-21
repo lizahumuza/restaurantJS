@@ -1,0 +1,82 @@
+body,html{
+    background-color: #dce7f7;
+    text-align: center;
+    font-family: 'Labrada', serif;
+    height: 100%;
+
+}
+.h1{
+    
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+    color: #06347d;
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    width: 300px;
+    text-align: center;
+    padding: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.p{
+    
+    font-size: 1.5rem;
+    
+}
+.butt{
+    gap:20px;
+    background-color: #8b5ccc;
+    margin-right: 10px;
+    color: white;
+    border-radius:  7px;
+    border: black;
+    height: 30px;
+    width: 85px;
+    font-size: 0.9rem;  
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    width: 300px;
+    text-align: center;
+    padding: 12px;
+}
+.card-text{
+    margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 7px;  
+}
+.image1{
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+@font-face {
+    font-family: 'Labrada', serif;
+    src: url('https://fonts.googleapis.com/css2?family=Labrada:ital@1&display=swap');
+    font-weight: 600;
+    font-style: normal;
+  }
